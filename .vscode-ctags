@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(TARGET).bin	Makefile	/^$(TARGET).bin: $(TARGET).elf$/;"	t
+$(TARGET).elf	Makefile	/^$(TARGET).elf: $(OBJS)$/;"	t
+%.o	Makefile	/^%.o: %.S$/;"	t
+%.o	Makefile	/^%.o: %.c$/;"	t
+AHBENR	BareMetal-Blinky.c	/^  __IO uint32_t AHBENR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+APB1ENR	BareMetal-Blinky.c	/^  __IO uint32_t APB1ENR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+APB1RSTR	BareMetal-Blinky.c	/^  __IO uint32_t APB1RSTR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+APB2ENR	BareMetal-Blinky.c	/^  __IO uint32_t APB2ENR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+APB2RSTR	BareMetal-Blinky.c	/^  __IO uint32_t APB2RSTR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+AS	Makefile	/^AS = ..\/bin\/arm-none-eabi-as$/;"	m
+AS_SRC	Makefile	/^AS_SRC   = .\/startupScript.s$/;"	m
+BDCR	BareMetal-Blinky.c	/^  __IO uint32_t BDCR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+BRR	BareMetal-Blinky.c	/^  __IO uint32_t BRR;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+BSRR	BareMetal-Blinky.c	/^  __IO uint32_t BSRR;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+CC	Makefile	/^CC = ..\/bin\/arm-none-eabi-gcc$/;"	m
+CFGR	BareMetal-Blinky.c	/^  __IO uint32_t CFGR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+CIR	BareMetal-Blinky.c	/^  __IO uint32_t CIR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+CR	BareMetal-Blinky.c	/^  __IO uint32_t CR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+CRH	BareMetal-Blinky.c	/^  __IO uint32_t CRH;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+CRL	BareMetal-Blinky.c	/^  __IO uint32_t CRL;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+CSR	BareMetal-Blinky.c	/^  __IO uint32_t CSR;$/;"	m	struct:__anona6cb82f90208	typeref:typename:__IO uint32_t	file:
+C_SRC	Makefile	/^C_SRC    = .\/BareMetal-Blinky.c$/;"	m
+GPIOC	BareMetal-Blinky.c	/^#define GPIOC /;"	d	file:
+GPIO_PORT_C_ADDR	BareMetal-Blinky.c	/^#define GPIO_PORT_C_ADDR /;"	d	file:
+GPIO_TypeDef	BareMetal-Blinky.c	/^} GPIO_TypeDef;$/;"	t	typeref:struct:__anona6cb82f90108	file:
+IDR	BareMetal-Blinky.c	/^  __IO uint32_t IDR;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+LCKR	BareMetal-Blinky.c	/^  __IO uint32_t LCKR;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+LD	Makefile	/^LD = ..\/bin\/arm-none-eabi-ld$/;"	m
+LD_SCRIPT	Makefile	/^LD_SCRIPT = linkerScript.ld$/;"	m
+LSCRIPT	Makefile	/^LSCRIPT = .\/$(LD_SCRIPT)$/;"	m
+MCU_SPEC	Makefile	/^MCU_SPEC  = cortex-m3$/;"	m
+OBJS	Makefile	/^OBJS =  $(VECT_TBL:.S=.o)$/;"	m
+OC	Makefile	/^OC = ..\/bin\/arm-none-eabi-objcopy$/;"	m
+OD	Makefile	/^OD = ..\/bin\/arm-none-eabi-objdump$/;"	m
+ODR	BareMetal-Blinky.c	/^  __IO uint32_t ODR;$/;"	m	struct:__anona6cb82f90108	typeref:typename:__IO uint32_t	file:
+OS	Makefile	/^OS = ..\/bin\/arm-none-eabi-size$/;"	m
+RCC	BareMetal-Blinky.c	/^#define RCC /;"	d	file:
+RCC_ADDR	BareMetal-Blinky.c	/^#define RCC_ADDR /;"	d	file:
+RCC_TypeDef	BareMetal-Blinky.c	/^} RCC_TypeDef;$/;"	t	typeref:struct:__anona6cb82f90208	file:
+TARGET	Makefile	/^TARGET = BM-Blinky$/;"	m
+TOOLCHAIN	Makefile	/^TOOLCHAIN = \/usr$/;"	m
+VECT_TBL	Makefile	/^VECT_TBL = .\/vtable.s$/;"	m
+__I	BareMetal-Blinky.c	/^#define __I$/;"	d	file:
+__IO	BareMetal-Blinky.c	/^#define __IO /;"	d	file:
+__anona6cb82f90108	BareMetal-Blinky.c	/^{$/;"	s	file:
+__anona6cb82f90208	BareMetal-Blinky.c	/^{$/;"	s	file:
+all	Makefile	/^all: $(TARGET).bin$/;"	t
+clean	Makefile	/^clean:$/;"	t
+delay_	BareMetal-Blinky.c	/^void delay_(unsigned long long int  x) {$/;"	f	typeref:typename:void
+loop_	BareMetal-Blinky.c	/^void loop_() { $/;"	f	typeref:typename:void
+main	BareMetal-Blinky.c	/^int main() {$/;"	f	typeref:typename:int
+pinNumber	BareMetal-Blinky.c	/^#define pinNumber /;"	d	file:
+uint16_t	BareMetal-Blinky.c	/^#define uint16_t /;"	d	file:
+uint32_t	BareMetal-Blinky.c	/^#define uint32_t /;"	d	file:
+uint8_t	BareMetal-Blinky.c	/^#define uint8_t /;"	d	file:
